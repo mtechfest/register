@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- URBANIST FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tapestry&family=Urbanist:wght@100;400;500;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Morgan TechFest RSVP</title>
+  </head>
+  <body>
+    <form class="registration" id="form">
+      <div class="registration__section" id="fullname">
+        <!-- Registration Content Container -->
+        <div class="registration__layout first__name">
+
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading">Welcome</h1>
+
+            <p class="form__welcome-address">
+              You are one short step from
+              lift Off <span class="emoji">🚀</span>
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="firstName"
+                >What's your full name?</label
+              >
+              <input type="text" class="form__input firstName-input" name="firstName" id="firsName" required />
+            </div>
+
+            <!-- Next Link -->
+            <div class="next-btn">
+              <a class="btn" href="#email"
+                >Next <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">1/11</p>
+          </div>
+        </div>
+
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-1.jpg"
+            alt="Welcome Image"
+            class="registration-img"
+          />
+        </div>
+      </div>
+
+      <!-- EMAIL-PAGE -->
+      <div class="registration__section" id="email">
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-2.jpg"
+            alt="Welcome Image"
+            class="registration-img email__address-img"
+          />
+        </div>
+
+        <!-- Registration Content Container -->
+        <div class="registration__layout email__address">
+
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              What about your email address? <span class="emoji">📧</span>
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="email"
+                >eg. johndoe@email.com</label
+              >
+              <input type="email" class="form__input email-input" name="email" id="email" required/>
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#fullname">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <a class="btn" href="#school-email"
+                  >Next <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">2/11</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ################# -->
+      <!-- SCHOOL EMAIL - PAGE -->
+      <!-- ################# -->
+      <div class="registration__section" id="school-email">
+        <!-- Registration Content Container -->
+        <div class="registration__layout email__address">
+
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              What is your school's email address? <span class="emoji"
+                >🏫</span
+              >
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class=" form-content input__label" for="schoolEmail"
+                >eg. johndoe@morgan.com</label
+              >
+              <input type="email" class="form__input email-input" name="schoolEmail" id="schoolEmail" required />
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#email">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <a class="btn" href="#levelOfStudy"
+                  >Next <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">3/11</p>
+          </div>
+        </div>
+
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-3.jpg"
+            alt="Welcome Image"
+            class="registration-img school-email-img"
+          />
+        </div>
+      </div>
+
+      <!-- ################# -->
+      <!-- LEVEL OF STUDY PAGE -->
+      <!-- ################# -->
+
+      <div class="registration__section" id="levelOfStudy">
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-5.jpg"
+            alt="Welcome Image"
+            class="registration-img img-5"
+          />
+        </div>
+
+        <!-- Registration Content Container -->
+        <div class="registration__layout">
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              What is your current level?
+              of study?<span class="emoji">🎚️</span>
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="levelOfStudy"
+                >eg. Master's</label
+              >
+              <select name="levelOfStudy" id="levelOfStudy" required>
+                <option value="-None-">-None-</option>
+                <option value="Bachelor's">Bachelor's</option>
+                <option value="Master's">Master's</option>
+                <option value="Doctorate">Doctorate</option>
+              </select>
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#school-email">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <a class="btn" href="#attendance"
+                  >Next <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">4/11</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ################# -->
+      <!-- ATTENDANCE - PAGE -->
+      <!-- ################# -->
+      <div class="registration__section" id="attendance">
+        <!-- Registration Content Container -->
+        <div class="registration__layout email__address">
+
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              Do you attend an HBCU or PWI? <span class="emoji">🏫</span>
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="attendance"
+                >eg. I attend HBCU</label
+              >
+              <input type="text" class="form__input email-input" name="attendance" id="attendance" required />
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#levelOfStudy">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <a class="btn" href="#school-attendance"
+                  >Next <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">5/11</p>
+          </div>
+        </div>
+
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-7.jpg"
+            alt="Welcome Image"
+            class="registration-img school-email-img"
+          />
+        </div>
+      </div>
+
+      <!-- ################# -->
+      <!-- SCHOOL ATTENDANCE PAGE -->
+      <!-- ################# -->
+
+      <div class="registration__section" id="school-attendance">
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-4.jpg"
+            alt="Welcome Image"
+            class="registration-img img-5"
+          />
+        </div>
+
+        <!-- Registration Content Container -->
+        <div class="registration__layout">
+
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              What school do you currently
+              attend?<span class="emoji">🏫</span>
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="schoolAttendance"
+                >eg. Morgan University</label
+              >
+              <input type="text" class="form__input school-attendance-input" name="schoolAttendance" id="schoolAttendance" required/>
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#attendance">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <a class="btn" href="#dietry"
+                  >Next <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">6/11</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ################# -->
+      <!-- DIETRY PAGE -->
+      <!-- ################# -->
+
+      <div class="registration__section" id="dietry">
+        <!-- Registration Content Container -->
+        <div class="registration__layout dietry">
+
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              Please indicate any allergies or dietry
+              restrictions you have<span class="emoji">🍲</span>
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="dietry"
+                >The above is to help us build a menu inclusive of everyone's
+                dietry needs.</label
+              >
+              <input type="text" class="form__input dietry-input" name="dietry" id="dietry" />
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#school-attendance">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <a class="btn" href="#t-shirt"
+                  >Next <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">7/11</p>
+          </div>
+        </div>
+
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-8.jpg"
+            alt="Welcome Image"
+            class="registration-img img-5"
+          />
+        </div>
+      </div>
+
+      <!-- ################# -->
+      <!-- UNISEX T-SHIRT PAGE -->
+      <!-- ################# -->
+
+      <div class="registration__section" id="t-shirt">
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-11.jpg"
+            alt="Welcome Image"
+            class="registration-img img-5"
+          />
+        </div>
+
+        <!-- Registration Content Container -->
+        <div class="registration__layout">
+
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              What is your t-shirt size?<span class="emoji">👕</span>
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="t-shirt">eg. XS</label>
+              <select name="t-shirt" id="t-shirt" required>
+                <option value="-None-">-None-</option>
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+              </select>
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#dietry">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <a class="btn" href="#ethinicity"
+                  >Next <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">8/11</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ##################### -->
+      <!-- ETHNICITY / RACE PAGE -->
+      <!-- ##################### -->
+
+      <div class="registration__section" id="ethinicity">
+        <!-- Registration Content Container -->
+        <div class="registration__layout email__address">
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              What is your ethinicity or race?
+              <span class="emoji">🧑🏽‍🦱</span>
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="race"
+                >eg. Black or African American</label
+              >
+              <select name="race" id="race" required>
+                <option value="-None-">-None-</option>
+                <option value="Bachelor's">
+                  American Indian or Alaska Native
+                </option>
+                <option value="Asian">Asian</option>
+                <option value="Black or African American">Black or African American</option>
+                <option value="Hispanic or Latino">Hispanic or Latino</option>
+                <option value="Native Hawaiian or Other Pacific Islander">
+                  Native Hawaiian or Other Pacific Islander
+                </option>
+                <option value="White">White</option>
+              </select>
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#t-shirt">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <a class="btn" href="#course"
+                  >Next <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">9/11</p>
+          </div>
+        </div>
+
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-13.jpg"
+            alt="Welcome Image"
+            class="registration-img img-5"
+          />
+        </div>
+      </div>
+
+      <!-- ################# -->
+      <!-- COURSE PAGE -->
+      <!-- ################# -->
+
+      <div class="registration__section" id="course">
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-14.jpg"
+            alt="Welcome Image"
+            class="registration-img img-5"
+          />
+        </div>
+
+        <!-- Registration Content Container -->
+        <div class="registration__layout email__address">
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              Are you a computer science major or minor?<span class="emoji"
+                >🧑‍💻</span
+              >
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="courseMajor">eg. XS</label>
+              <select name="courseMajor" id="courseMajor select" required>
+                <option value="-None-">-None-</option>
+                <option value="Major">Major</option>
+                <option value="Minor">Minor</option>
+              </select>
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#ethinicity">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <a class="btn" href="#research"
+                  >Next <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Page Numbering -->
+            <p class="page__number">10/11</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ##################### -->
+      <!-- Research Student PAGE -->
+      <!-- ##################### -->
+
+      <div class="registration__section" id="research">
+        <!-- Registration Content Container -->
+        <div class="registration__layout email__address">
+
+          <!-- Logo Container -->
+          <div class="registration__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <h1 class="primary-heading"></h1>
+
+            <p class="form__welcome-address">
+              Are you a research Student?
+              <span class="emoji">🔍</span>
+            </p>
+
+            <!-- The Input Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="researchStudent">eg. No</label>
+              <select name="researchStudent" id="researchStudent" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+
+            <p class="form__welcome-address">
+              Are you ready to present your research as a poster at the event?
+              <span class="emoji">🧑‍🏫</span>
+            </p>
+
+            <!-- Another Form Field -->
+            <div class="form-content">
+              <label class="input__label" for="researchPresentation">eg. No</label>
+              <select name="researchPresentation" id="researchPresentation" required>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#course">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
+                <!-- <a class="btn" href="#course">Next <i class="ri-arrow-right-line"></i> </a> -->
+                <button type="submit" class="btn" id="submit">Submit</button>
+              </div> 
+            </div>
+
+            <!-- Back to Home Page -->
+            <a href="#fullname" class="reset">Back to home</a>
+
+            <!-- Page Numbering -->
+            <p class="page__number">11/11</p>
+          </div>
+        </div>
+
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-12.jpg"
+            alt="Welcome Image"
+            class="registration-img img-5"
+          />
+        </div>
+      </div>
+    </form>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
