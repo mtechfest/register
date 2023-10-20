@@ -663,21 +663,21 @@
         <div class="registration__layout email__address">
 
           <!-- Logo Container -->
-          <div class="registration__logo">
+          <div class="registration__logo research__logo">
             <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
           </div>
 
           <!-- Form Details Area -->
           <div class="form__contents-area">
-            <h1 class="primary-heading"></h1>
+            <!-- <h1 class="primary-heading"></h1> -->
 
-            <p class="form__welcome-address">
+            <p class="form__welcome-address research-font">
               Are you a research Student?
               <span class="emoji">🔍</span>
             </p>
 
             <!-- The Input Form Field -->
-            <div class="form-content">
+            <div class="form-content research-content">
               <label class="input__label" for="researchStudent"> No</label>
               <select name="researchStudent" id="researchStudent" required>
                 <option value="Yes">Yes</option>
@@ -685,7 +685,20 @@
               </select>
             </div>
 
-            <p class="form__welcome-address">
+            <p class="form__welcome-address research-font">
+              What's Your Research Topic?
+              <span class="emoji"></span>
+            </p>
+
+             <!-- The Input Form Field -->
+             <div class="form-content">
+              <label class="input__label" for="researchStudent"> eg. Image Recognition using CNN</label>
+              
+              <input type="text" class="form__input firstName-input" name="researchTopic" id="researchTopic" required />
+              </div>
+            </div>
+
+            <p class="form__welcome-address research-font">
               Are you ready to present your research as a poster at the event?
               <span class="emoji">🧑‍🏫</span>
             </p>
@@ -726,7 +739,7 @@
           <img
             src="assets/images/img-12.jpg"
             alt="Welcome Image"
-            class="registration-img img-5"
+            class="registration-img img-5 research-img"
           />
         </div>
       </div>

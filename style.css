@@ -219,6 +219,10 @@ input[type="file"] {
     display: inline-block;
 }
 
+.research__logo {
+    margin-bottom: 10px;
+}
+
 .registration__logo-img {
     width: 100%;
     height: 100%;
@@ -269,6 +273,10 @@ input[type="file"] {
     margin-bottom: 20px;
 }
 
+.research-content {
+    margin-bottom: 10px;
+}
+
 
 .registration__image-container {
     width: 50%;
@@ -285,6 +293,11 @@ input[type="file"] {
 
     height: 100%;
     width: 100%;
+}
+
+.research-img {
+    height: 100%;
+    width: 100%
 }
 
 .school-email-img {
@@ -324,6 +337,15 @@ input[type="file"] {
     text-align: center;
     color: #0f0f0f;
 }
+
+.research-font {
+    font-size: 16px;
+    font-weight: 700;
+ }
+
+ .research-img {
+
+ }
 
 
 
