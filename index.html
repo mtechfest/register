@@ -44,10 +44,10 @@
 
             <!-- The Input Form Field -->
             <div class="form-content">
-              <label class="input__label" for="firstName"
+              <label class="input__label" for="fullname"
                 >What's your full name?</label
               >
-              <input type="text" class="form__input firstName-input" name="firstName" id="firsName" required />
+              <input type="text" class="form__input firstName-input" name="fullname" id="fullname" required />
             </div>
 
             <!-- Next Link -->
@@ -58,7 +58,7 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">1/11</p>
+            <p class="page__number">1/12</p>
           </div>
         </div>
 
@@ -123,7 +123,7 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">2/11</p>
+            <p class="page__number">2/12</p>
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">3/11</p>
+            <p class="page__number">3/12</p>
           </div>
         </div>
 
@@ -247,7 +247,7 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">4/11</p>
+            <p class="page__number">4/12</p>
           </div>
         </div>
       </div>
@@ -301,7 +301,7 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">5/11</p>
+            <p class="page__number">5/12</p>
           </div>
         </div>
 
@@ -370,7 +370,7 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">6/11</p>
+            <p class="page__number">6/12</p>
           </div>
         </div>
       </div>
@@ -422,7 +422,7 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">7/11</p>
+            <p class="page__number">7/12</p>
           </div>
         </div>
 
@@ -495,7 +495,7 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">8/11</p>
+            <p class="page__number">8/12</p>
           </div>
         </div>
       </div>
@@ -557,7 +557,7 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">9/11</p>
+            <p class="page__number">9/12</p>
           </div>
         </div>
 
@@ -614,17 +614,17 @@
 
             <!-- Resume Upload Field -->
             <p class="form__welcome-address">
-              Please attach your resume<span class="emoji"
+              Please link your resume<span class="emoji"
                 >📂</span
               >
             </p>
 
             <!-- The Input Form Field -->
             <div class="form-content">
-              <label class="input__label resume" for="resume">attaching resume means you are giving us authority to share information with recruiters </label>
+              <label class="input__label resume" for="resume">Providing us link to your resume means you are giving us authority to share information with recruiters </label>
 
               <!-- Resume Input field -->
-              <input type="file" name="resume" id="resume" >
+              <input type="input" class="form__input dietry-input" name="resume" id="resume" >
 
               <!-- <select name="courseMajor" id="courseMajor select" required>
                 <option value="-None-">-None-</option>
@@ -649,16 +649,18 @@
             </div>
 
             <!-- Page Numbering -->
-            <p class="page__number">10/11</p>
+            <p class="page__number">10/12</p>
           </div>
         </div>
       </div>
 
+
       <!-- ##################### -->
-      <!-- Research Student PAGE -->
+      <!-- RESEARCH STUDENT PAGE -->
       <!-- ##################### -->
 
       <div class="registration__section" id="research">
+        <!-- Registration Content Container -->
         <!-- Registration Content Container -->
         <div class="registration__layout email__address">
 
@@ -686,19 +688,6 @@
             </div>
 
             <p class="form__welcome-address research-font">
-              What's Your Research Topic?
-              <span class="emoji"></span>
-            </p>
-
-             <!-- The Input Form Field -->
-             <div class="form-content">
-              <label class="input__label" for="researchStudent"> eg. Image Recognition using CNN</label>
-              
-              <input type="text" class="form__input firstName-input" name="researchTopic" id="researchTopic" required />
-              </div>
-            </div>
-
-            <p class="form__welcome-address research-font">
               Are you ready to present your research as a poster at the event?
               <span class="emoji">🧑‍🏫</span>
             </p>
@@ -721,6 +710,75 @@
               </div>
 
               <div class="next-btn">
+                <a class="btn" href="#research-2">Next <i class="ri-arrow-right-line"></i> </a>
+                <!-- <button type="submit" class="btn" id="submit">Submit</button> -->
+              </div> 
+            </div>
+
+            <!-- Back to Home Page -->
+            <!-- <a href="#fullname" class="reset">Back to home</a> -->
+
+            <!-- Page Numbering -->
+            <p class="page__number">11/12</p>
+          </div>
+        </div>
+
+        <!-- Image Div Container -->
+        <div class="registration__image-container">
+          <img
+            src="assets/images/img-13.jpg"
+            alt="Welcome Image"
+            class="registration-img img-5"
+          />
+        </div>
+      </div>
+
+      <!-- ##################### -->
+      <!-- Research Student PAGE PART 2 -->
+      <!-- ##################### -->
+      <div class="registration__section" id="research-2">
+        <!-- Image Div Container -->
+      <div class="registration__image-container">
+        <img
+          src="assets/images/img-12.jpg"
+          alt="Welcome Image"
+          class="registration-img img-5 research-img"
+        />
+      </div>
+
+
+        <!-- Registration Content Container -->
+        <div class="registration__layout email__address">
+
+          <!-- Logo Container -->
+          <div class="registration__logo research__logo">
+            <img src="assets/images/Logo PNG.png" alt="Morgan Tech Logo" class="registration__logo-img">
+          </div>
+
+          <!-- Form Details Area -->
+          <div class="form__contents-area">
+            <p class="form__welcome-address research-font">
+              What's Your Research Topic?
+              <span class="emoji"></span>
+            </p>
+
+             <!-- The Input Form Field -->
+             <div class="form-content">
+              <label class="input__label" for="researchTopic"> eg. Image Recognition using CNN</label>
+              
+              <input type="text" class="form__input firstName-input" name="researchTopic" id="researchTopic" required />
+              </div>
+            </div>
+
+            <!-- Paginations Btns -->
+            <div class="pagination-btns">
+              <div class="next-btn">
+                <a class="btn" href="#research">
+                  <i class="ri-arrow-left-line"></i> Previous
+                </a>
+              </div>
+
+              <div class="next-btn">
                 <!-- <a class="btn" href="#course">Next <i class="ri-arrow-right-line"></i> </a> -->
                 <button type="submit" class="btn" id="submit">Submit</button>
               </div> 
@@ -730,17 +788,8 @@
             <a href="#fullname" class="reset">Back to home</a>
 
             <!-- Page Numbering -->
-            <p class="page__number">11/11</p>
+            <p class="page__number">12/12</p>
           </div>
-        </div>
-
-        <!-- Image Div Container -->
-        <div class="registration__image-container">
-          <img
-            src="assets/images/img-12.jpg"
-            alt="Welcome Image"
-            class="registration-img img-5 research-img"
-          />
         </div>
       </div>
     </form>
