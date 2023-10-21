@@ -423,6 +423,10 @@ input[type="file"] {
         height: 40px;
     }
 
+    .input__label {
+        font-weight: 400;
+    }
+
     .btn {
         margin-top: -10px;
         padding: 10px 15px;
