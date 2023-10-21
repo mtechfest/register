@@ -3,7 +3,7 @@
 const form = document.querySelector("#form");
 const submitButton = document.querySelector("#submit");
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycby7GQqGN5HJaYHuL4Vb5twWRPOQX3teJB3BUDrB2BrxxMkZ93_6tnW9y0FIZkjvwoA67g/exec";
+  "https://script.google.com/macros/s/AKfycbynrahBh-SLe6qc6hhAJcukoggLIrUdZtb-tGMS8r-TtTUOJ8IM7EYN_5RC5qZkL6tm/exec";
 
 form.addEventListener("submit", (e) => {
   submitButton.disabled = true;
